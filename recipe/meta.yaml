@@ -1,6 +1,6 @@
 {% set name = "assertpy" %}
-{% set version = "0.12" %}
-{% set sha256 = "563502ad2d89f5242543924d1ae62472c24daeeaf2ecfd78b004feb0559395b9" %}
+{% set version = "0.13" %}
+{% set sha256 = "3c288e81e1c5118b9722a1f396db21724916cfb480f3c0c079c4af91ee6f79ce" %}
 
 package:
   name: {{ name|lower }}
@@ -28,13 +28,13 @@ test:
     - assertpy
 
 about:
-  home: https://github.com/ActivisionGameScience/assertpy  
+  home: https://github.com/ActivisionGameScience/assertpy
   license: BSD 3-Clause
-  # https://github.com/ActivisionGameScience/assertpy/issues/72
-  license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE'
+  license_file: LICENSE
   summary: 'Assertion library for python unit testing with a fluent API'
   dev_url: https://github.com/ActivisionGameScience/assertpy
 
 extra:
   recipe-maintainers:
     - dwyatte
+    - saturnboy
