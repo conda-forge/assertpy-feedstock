@@ -1,6 +1,6 @@
 {% set name = "assertpy" %}
-{% set version = "0.14" %}
-{% set sha256 = "1b7e591f490616e3f2707b6e511b91b188a8c6facb3a4ff0db2339b0a41d73c4" %}
+{% set version = "0.15" %}
+{% set sha256 = "04f52dcd9d60d074b3cfd9f16cc7b4dde4cdf654133562b754062947bc357775" %}
 
 package:
   name: {{ name|lower }}
