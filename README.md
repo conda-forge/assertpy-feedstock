@@ -5,7 +5,7 @@ Home: https://github.com/ActivisionGameScience/assertpy
 
 Package license: BSD 3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Assertion library for python unit testing with a fluent API
 
