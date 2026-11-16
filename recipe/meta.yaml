@@ -1,5 +1,5 @@
 {% set name = "assertpy" %}
-{% set version = "2.36.0" %}
+{% set version = "2.36.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/assertpy-{{ version }}.tar.gz
-  sha256: 94856ca5ec7131e26584115bea06f85c10aacaa5f4c525254f32d6986edf9e0a
+  sha256: 43f384b02738c154e36cc16997373e33e27576dce4656e8bc8c13cba7a15761f
 
 build:
   noarch: python
